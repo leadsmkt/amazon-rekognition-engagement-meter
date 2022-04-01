@@ -7,7 +7,7 @@ import RekognitionButton from "./RekognitionButton";
 const Header = (props) => (
   <Navbar inverse collapseOnSelect style={{ backgroundColor: "#000" }}>
     <Navbar.Header>
-      <Navbar.Brand>Amazon Rekognition Engagement Meter</Navbar.Brand>
+      <Navbar.Brand>Digitalyz Rekognition Engagement Meter</Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>
     <Navbar.Collapse>
