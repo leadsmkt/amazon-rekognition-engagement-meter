@@ -5,11 +5,11 @@ const getChartData = (data) => {
   };
 
   const totals = {
-    angry: 0,
-    calm: 0,
-    happy: 0,
-    sad: 0,
-    surprised: 0,
+    Colère: 0,
+    Calme: 0,
+    Heureux: 0,
+    Triste: 0,
+    Surpris: 0,
     total: 0,
   };
 
