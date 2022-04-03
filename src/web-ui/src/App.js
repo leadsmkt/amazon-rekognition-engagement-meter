@@ -18,7 +18,7 @@ const App = () => {
   const [aggregate, setAggregate] = useState({
     angry: 0,
     calm: 0,
-    happy: 0,
+    Heureux: 0,
     sad: 0,
     surprised: 0,
   });
@@ -136,7 +136,7 @@ const App = () => {
                   <Grid>
                     <Row style={{ marginTop: "20px" }}>
                       <Col md={4} sm={3}>
-                        <h3>Trends for last hour</h3>
+                        <h3>Tendances de la dernière Heure</h3>
                         <PolarChart
                           data={Object.keys(aggregate).map((sentiment) => ({
                             x: sentiment,
@@ -146,7 +146,7 @@ const App = () => {
                       </Col>
                       <Col md={4} sm={3}>
                         <h3 style={{ marginBottom: "40px" }}>
-                          Engagement Meter
+                          Engagementmètre ;-)
                         </h3>
                         <GaugeChart
                           id="gauge-chart1"
