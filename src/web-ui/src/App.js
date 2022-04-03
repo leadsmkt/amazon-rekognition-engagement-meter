@@ -16,11 +16,11 @@ import gateway from "./utils/gateway";
 
 const App = () => {
   const [aggregate, setAggregate] = useState({
-    angry: 0,
-    calm: 0,
+    Colère: 0,
+    Calme: 0,
     Heureux: 0,
-    sad: 0,
-    surprised: 0,
+    Triste: 0,
+    Surpris: 0,
   });
 
   const [detectedFaces, setDetectedFaces] = useState([]);
